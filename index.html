@@ -26,6 +26,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </head>
 <body class="bg-[#121212] text-[#E0E0E0] text-lg">
 
@@ -347,24 +348,22 @@
         </div>
     </section>
 
-    <!-- Buy Me a Coffee Section -->
-                <section class="py-20 px-4 sm:px-6 lg:px-8">
-                  <div class="max-w-4xl mx-auto">
-                    <div class="bg-[#888888]/10 backdrop-blur-sm p-8 md:p-12 rounded-3xl border border-[#888888]/20 text-center">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee w-16 h-16 text-[#E0E0E0] mx-auto mb-6"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" x2="6" y1="2" y2="4"/><line x1="10" x2="10" y1="2" y2="4"/><line x1="14" x2="14" y1="2" y2="4"/></svg>
-                      <h2 class="text-4xl font-bold mb-4 text-[#E0E0E0]">Enjoying My Work?</h2>
-                      <p class="text-xl text-[#E0E0E0] mb-8 max-w-2xl mx-auto">
-                        If you find my projects helpful or want to support my learning journey in cloud networking and IT, consider buying me a coffee! Your support helps me continue learning and building.
-                      </p>
-                      <a href="https://buymeacoffee.com/tarunmehra" target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-gradient-to-r from-[#888888] to-[#E0E0E0] rounded-xl font-semibold hover:shadow-lg hover:shadow-[#888888]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2 mx-auto text-[#121212]">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coffee w-5 h-5"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" x2="6" y1="2" y2="4"/><line x1="10" x2="10" y1="2" y2="4"/><line x1="14" x2="14" y1="2" y2="4"/></svg>
-                        <span>Buy Me a Coffee</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-                      </a>
-                      <p class="text-sm text-[#B0B0B0] mt-4">Payment gateway integration coming soon!</p>
-                    </div>
-                  </div>
-                </section>    <!-- Contact Section -->
+    <!-- Donate Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-[#888888]/10 backdrop-blur-sm p-8 md:p-12 rounded-3xl border border-[#888888]/20 text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem w-16 h-16 text-[#E0E0E0] mx-auto mb-6"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M12 22V9"/><path d="m3.29 9 8.71 13 8.71-13"/></svg>
+          <h2 class="text-4xl font-bold mb-4 text-[#E0E0E0]">Donate money to Tarun</h2>
+          <p class="text-xl text-[#E0E0E0] mb-8 max-w-2xl mx-auto">
+            If you find my projects helpful or want to support my learning journey in cloud networking and IT, consider donating. Your support helps me continue learning and building.
+          </p>
+          <button id="donate-button" class="px-8 py-4 bg-gradient-to-r from-[#888888] to-[#E0E0E0] rounded-xl font-semibold hover:shadow-lg hover:shadow-[#888888]/50 transition-all duration-300 hover:scale-105 flex items-center space-x-2 mx-auto text-[#121212]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-5 h-5"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            <span>Support them</span>
+          </button>
+        </div>
+      </div>
+    </section>    <!-- Contact Section -->
     <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900/50">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-5xl font-bold mb-12 text-center">
