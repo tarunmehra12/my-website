@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Scrollspy
-    const sections = ['home', 'about', 'experience', 'skills', 'projects', 'contact'];
+    const sections = ['home', 'about', 'experience', 'skills', 'projects', 'contact','Blog'];
     const navButtons = document.querySelectorAll('#desktop-menu button');
 
     window.addEventListener('scroll', () => {
