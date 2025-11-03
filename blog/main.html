@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Optional: A more fitting font, but Tailwind's default sans is fine */
+        /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap'); */
+        /* body { font-family: 'Inter', sans-serif; } */
+    </style>
+</head>
+<body class="bg-[#121212] text-[#E0E0E0]">
+
+    <section id="blog" class="py-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            
+            <h2 class="text-5xl font-bold mb-12 text-center">
+                <span class="bg-gradient-to-r from-[#888888] to-[#E0E0E0] bg-clip-text text-transparent">
+                    The Blog
+                </span>
+            </h2>
+
+            <div class="max-w-2xl mx-auto mb-16">
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search text-[#888888]">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                        </svg>
+                    </div>
+                    <input 
+                        type="search" 
+                        name="search" 
+                        id="search" 
+                        placeholder="Search for articles, guides, or snippets..."
+                        class="w-full pl-12 pr-4 py-4 bg-[#1C1C1C] rounded-2xl border border-[#444444] text-lg text-[#E0E0E0] placeholder:text-[#888888]/70 focus:outline-none focus:border-[#888888]/50 focus:ring-1 focus:ring-[#888888]/50 transition-all duration-300"
+                    >
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <a href="online-safety-guide.html" class="block group">
+                    <div class="bg-[#1C1C1C] backdrop-blur-sm p-6 rounded-2xl border border-[#444444] hover:border-[#888888]/30 transition-all duration-300 h-full flex flex-col">
+                        <img src="https://placehold.co/600x400/2C2C2C/888888?text=Online+Safety" alt="Guide to online safety" class="w-full h-48 object-cover rounded-lg mb-6">
+                        <h3 class="text-2xl font-bold text-[#E0E0E0] mb-2 group-hover:text-white transition-colors">
+                            Your Guide to Online Safety in 2025
+                        </h3>
+                        <p class="text-sm text-[#B0B0B0] mb-4">November 1, 2025 | 8 min read</p>
+                        <p class="text-[#E0E0E0] mb-6 line-clamp-3">
+                            Practical, up-to-date guidance on online safety and privacy for 2025: passwords, two-factor auth, safe browsing, and more.
+                        </p>
+                        <span class="mt-auto text-lg text-[#888888] group-hover:text-[#E0E0E0] transition-colors duration-300">
+                            Read More &rarr;
+                        </span>
+                    </div>
+                </a>
+
+                <a href="vpn.html" class="block group">
+                    <div class="bg-[#1C1C1C] backdrop-blur-sm p-6 rounded-2xl border border-[#444448] hover:border-[#888888]/30 transition-all duration-300 h-full flex flex-col">
+                        <img src="https://placehold.co/600x400/2C2C2C/888888?text=VPN+Guide" alt="Complete guide to VPNs" class="w-full h-48 object-cover rounded-lg mb-6">
+                        <h3 class="text-2xl font-bold text-[#E0E0E0] mb-2 group-hover:text-white transition-colors">
+                            Complete Guide to VPN
+                        </h3>
+                        <p class="text-sm text-[#B0B0B0] mb-4">October 25, 2025 | 6 min read</p>
+                        <p class="text-[#E0E0E0] mb-6 line-clamp-3">
+                            Everything you need to know about Virtual Private Networks. This guide breaks down what a VPN is, why you need one, and how to choose the best one.
+                        </p>
+                        <span class="mt-auto text-lg text-[#888888] group-hover:text-[#E0E0E0] transition-colors duration-300">
+                            Read More &rarr;
+                        </span>
+                    </div>
+                </a>
+                
+                </div>
+        </div>
+    </section>
+
+</body>
+</html>
