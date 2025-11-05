@@ -1,0 +1,63 @@
+# robots.txt for tarunmehra.site
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://tarunmehra.site/sitemap.xml
+
+# Block specific user agents (if needed)
+# User-agent: BadBot
+# Disallow: /
+
+# Crawl delay (optional - only if needed)
+# Crawl-delay: 1
+
+# Disallow specific directories (if you have admin/backend folders)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+
+# Allow Google Image indexing
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow specific file types
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+
+# Block sensitive files (uncomment if needed)
+# Disallow: /*.json$
+# Disallow: /*.xml$ (except sitemap)
+# Disallow: /*.log$
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Social media bots
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
